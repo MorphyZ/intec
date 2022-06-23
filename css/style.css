@@ -1,0 +1,381 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+
+    font-family: "montserratregular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    min-height: 800px;
+    background: white;
+}
+
+.section{  
+    
+}
+
+.header-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    min-height: 90px;
+    background-color:white;
+}
+
+.section__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color:white;
+    margin-top: 90px;
+    
+}
+.image_banner{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1700px;
+    background:url('../img/fireman.svg') no-repeat right center;
+    
+}
+
+.services{
+    min-height: 150px;
+}
+.services_div{
+    
+}
+.our_services_p {
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.prom_bez_div{
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    padding-top: 50px;
+}
+.labor_protection_div{
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    padding-top: 150px;
+}
+.training_workers_div{
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    padding-top: 150px;
+}
+.training_lowhp_div{
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    padding-top: 150px;
+}
+.prom_bez-article{
+    padding-left: 150px;
+}
+.prom_bez-article2{
+    padding-right: 150px;
+}
+.prom_bez-big-text{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+.reviews{
+    
+    min-height: 150px;
+}
+.projects{
+    
+    min-height: 150px;
+}
+.projects_p{
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 200px;
+}
+.projects_first_div{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    padding-top: 50px;
+}
+.img_first_projects_div{
+    text-align: center;
+    display: block;
+    margin-left: 370px;
+    
+}
+.project_first_p{
+    position: absolute;
+    font-size: 28px;
+    right: 62%;
+    vertical-align: middle;
+    margin: 130px 0;
+    text-transform: uppercase;
+}
+.project_first_p2{
+    position: absolute;
+    font-size: 14px;
+    right: 80%;
+    margin: 250px 0;
+    color: grey;
+}
+.project_first_minitext{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.project_first_button{
+    text-align: right;
+}
+
+
+
+
+.questions{
+    
+    min-height: 150px;
+    background: url("../img/LineQuest.svg") no-repeat;
+}
+.questions_div{
+    background-color: #FFE0B0;
+    margin: 100px auto;
+    width: 617px;
+    height: 197px;
+}
+.questions_p_big{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.questions_p{
+    text-align: center;
+    font-size: 14px;
+}
+.questions_form_text{
+    display: inline-block;
+}
+.questions_form_text_input{
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #DC911B;
+    background-color: #FFE0B0;
+    margin-left: 50px;
+}
+.questions_form_number{
+    display: inline-block;
+}
+.questions_form_number_input{
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFE0B0;
+    margin-left: 50px;
+}
+.questions_form_submit_input{
+    font-size: 18px;
+    background-color: #FFE0B0;
+    border: 2px solid #DC911B;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.questions_form_submit_input:hover{
+    font-size: 18px;
+    background-color: #c9ac81;
+    border: 2px solid #DC911B;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.questions_section{
+}
+.img_clients{
+    
+}
+
+
+.articles{
+    
+    min-height: 150px;
+}
+.certificates{
+    
+    min-height: 150px;
+    background-color: #3e3e3d;
+    color: white;
+}
+.clients{
+    
+    min-height: 150px;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+}
+
+
+.mainmenu__item{
+    margin-right: 30px;
+    
+}
+
+.polygon{
+    padding-bottom: 5px;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.zvonok_zakaz{
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px dashed #000;
+}
+.slider__item{
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
+    min-height: 564px;
+}
+
+.slider__text{
+    font-size: 30px;
+}
+
+.slider__big-text{
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.button{
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #d7b399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+.slider__item-price{
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slider__price--old{
+    font-size: 24px;
+    text-decoration-line: line-through;
+}
+
+.slider__price--new{
+    font-size: 42px;
+    color: #d84033;
+}
+
+.slider__button{
+    position:absolute;
+    top: 50%;
+}
+
+.slider__button--prev{
+    left: -100px;
+}
+
+.slider__button--next{
+    right: -100px;
+}
+
+.dress__wrapper{
+    flex-wrap: wrap;
+}
+
+.dress__item{
+    position: relative;
+    width: 277px;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.dress__item--grey{
+    background-color: white;
+}
+
+.dress__item--cream{
+    background-color: white;
+}
+footer{
+    background-color: #3E3E3D;
+}
+.copyright_div{
+    background: url(../img/logo_footer.svg) no-repeat center;
+    
+    border-top: #777E89 2px solid;
+}
+.copyright_p{
+    align-items: center;
+    padding: 40px 0;
+    color: #777E89;
+}
+.testt{
+    min-height: 200px;
+}
